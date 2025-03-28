@@ -1,0 +1,18 @@
+---
+site_name: My Docs
+nav:
+  - Home: index.md
+  - Sobre: about.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+
+plugins:
+  - git-revision-date-localized
+
+repo_url: https://github.com/vanderli2020/site1-mkdocs
+repo_name: vanderli2020/site1-mkdocs
